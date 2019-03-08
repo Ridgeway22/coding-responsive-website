@@ -1,0 +1,246 @@
+﻿/****************Base style***********/
+
+
+/*#gold-text {
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), url('../img/gold-foil2.psd');
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}*/
+  body{
+    background-color:  	#F5F5F5;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Rasa', serif;
+    font-size: 25px;
+
+  }
+
+.full-width{
+margin: 0 auto;
+
+}
+
+.half-width{
+margin: 0 auto;
+
+
+
+}
+
+.third-width{
+	height: 200px;
+	float: left;
+	border-top: 2px solid #eee;
+  margin: 0 auto;
+}
+
+head{
+	font-family: 'Rochester', cursive;
+}
+
+/***************header*******************/
+
+header{
+	/*margin:25px;*/
+
+}
+
+header h1{
+	float:left;
+	font-size: 50px;
+	font-family: 'Rochester', cursive;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color:#c3a343;
+}
+
+/***************************Nav Bar********************/
+
+nav{
+	margin-top: 25px;
+	float:right;
+	word-spacing:75px;
+}
+
+ nav ul li{
+    display: inline-block;
+
+}
+ nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 70px;
+    color: #c3a343;
+
+}
+
+
+/*******************main**********************/
+.computer {
+	  clear:both;
+	  height: 600px;
+    width:1400px;
+  	background:url('../img/computer.jpg');
+    /*<a href="https://www.freepik.com/free-photos-vectors/business">Business image created by Jeshoots - Freepik.com</a>*/
+    background-size: cover;
+    border: 5px solid #eee;
+    margin: 10px auto;
+}
+
+.computer .half-width h1 {
+	font-size: 100px;
+	font-family: 'Rochester', cursive;
+	color:#c3a343;
+	padding:0px 200px 200px 100px;
+	word-spacing: 25px;
+
+}
+
+/***********************Portfolio*************************/
+#portfolio-new{
+  clear: both;
+  padding-top: 100px;
+
+}
+.portfolio-one img	{
+height:300px;
+border: 4px solid white;
+margin: 0 auto;
+}
+
+
+.portfolio-one h1{
+  text-align: center;
+
+}
+#jubilee{
+  float: left;
+padding-left: 5%%;
+}
+
+ h3 span{
+  text-align: center;
+}
+
+ #jubilee-text{
+   max-width: 500px;
+   float:right;
+   text-align: center;
+   padding-right: 5%;
+ }
+
+#rogue-text{
+  clear:both;
+  float: left;
+  max-width: 500px;
+  text-align: center;
+  padding-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.portfolio-two img{
+  height: 350px;
+  border: 4px solid white;
+
+}
+
+#rogue {
+  float: right;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+
+/********************ABOUT Me***************/
+.about-me-one{
+  clear: both;
+  border: 1px solid white;
+   background-color: #eee;
+}
+
+#me{
+  clear:both;
+  text-align: center;
+  font-size: 50px;
+}
+
+#about {
+  clear: both;
+  height: 700px;
+  margin: 0 auto;
+  background:url('../img/arch.jpg');
+  background-repeat: no-repeat;
+}
+
+#about-me p{
+  font-size: 30px;
+  padding-right: 45%;
+  text-align: center;
+}
+
+#about-me h3{
+color: #c3a343;
+padding-right: 45%S;
+padding-top: 7%;
+}
+
+#about-me{
+  clear: both;
+  max-width: 1100px;
+  position: static;
+
+
+
+}
+
+
+/****************Contact************************/
+#contact{
+  clear: both;
+  text-align: center;
+  padding: 25px;
+  font-size: 50px;
+}
+
+#one{
+  padding: 50px;
+  margin-left: 6%;
+  text-align: center;
+}
+
+#two{
+  padding: 50px;
+  text-align: center;
+
+}
+#two h4{
+  text-align: center;
+}
+
+#two ul li{
+display: inline;
+padding: 15px;
+}
+
+
+#three{
+  padding: 50px;
+  text-align: center;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+}
+
+.credit{
+  text-align: center;
+  font-size: 10pt;
+
+}
